@@ -1,0 +1,29 @@
+ body {
+   
+ }
+header {
+    background-image: url('./images/header_bg_next.jpg');
+    z-index: -1;
+    height: 2500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 20rem;
+}
+
+.logo_net {
+    width: 700px;
+    position: absolute;
+    left: 144px;
+}
+.logo_net img {
+    width: 500px;
+    height: 150px;
+   
+    
+}
