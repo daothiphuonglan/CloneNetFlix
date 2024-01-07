@@ -4,10 +4,12 @@
 header {
     background-image: url('./images/header_bg_next.jpg');
     z-index: -1;
-    height: 2500px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    position: fixed;
+    width: 100%;
 }
 
 h1 {
@@ -21,9 +23,27 @@ h1 {
     position: absolute;
     left: 144px;
 }
-.logo_net img {
-    width: 500px;
-    height: 150px;
+.logo_net_brand {
    
+         /* hoặc giá trị góc khác để làm cong theo hướng khác nhau */
+       /* Điểm xoay ở giữa */
+        color: red;
+        font-size: 34px;
     
+}
+
+.header_center {
+    width: 700px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.header_center h1 {
+    font-size: 54px;
+}
+
+.header_title {
+     
 }
